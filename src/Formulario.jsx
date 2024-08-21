@@ -1,20 +1,10 @@
 import "./Formulario.css";
 
 const datosForm = [
-  { label: "Nombre", type: "text", name: "nombre", place: "Ingrese nombre(s)" },
-  {
-    label: "Apellido",
-    type: "text",
-    name: "apellido",
-    place: "Ingrese apellidos",
-  },
-  { label: "Correo", type: "email", name: "email", place: "Ingrese correo" },
-  {
-    label: "Teléfono",
-    type: "tel",
-    name: "telefono",
-    place: "Ingrese número",
-  },
+  { label: "Nombres:", place: "Ingrese nombre(s)" },
+  { label: "Apellidos:", place: "Ingrese apellidos(s)" },
+  { label: "Correo Electronico:", place: "Ingrese correo electronico(s)" },
+  { label: "telefono:", place: "Ingrese telefono(s)" }
 ];
 
 const formulario = datosForm.map((elemento, index) => (

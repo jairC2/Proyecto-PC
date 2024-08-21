@@ -2,16 +2,16 @@ import Logo from "./Logo";
 import { useState } from "react";
 
 const infoDia = [
-  { dia: "Domingo", textoDia: "Buen día para estar en la familia" },
-  { dia: "Lunes", textoDia: "A nadie le gusta el Lunes" },
+  { dia: "Domingo", textoDia: "Disfruta tus fines de semana con los mejores descuentos" },
+  { dia: "Lunes", textoDia: "Innovar es la clave para transformar el futuro." },
   {
     dia: "Martes",
     textoDia: "Un día para perfecto para tunear tu estilo de vida",
   },
-  { dia: "Miércoles", textoDia: "Vaya día de M..." },
-  { dia: "Jueves", textoDia: "Día de amigos 🍻" },
-  { dia: "Viernes", textoDia: "Hoy se sale " },
-  { dia: "Sábado", textoDia: "Que siga la juerga" },
+  { dia: "Miércoles", textoDia: "La tecnología es mejor cuando une a las personas" },
+  { dia: "Jueves", textoDia: "La innovación distingue a los líderes de los seguidores" },
+  { dia: "Viernes", textoDia: "La tecnología avanza cuando se exploran los límites de lo posible" },
+  { dia: "Sábado", textoDia: "El progreso es el resultado de un cambio constante" },
 ];
 
 let f = new Date();

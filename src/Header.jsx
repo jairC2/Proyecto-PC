@@ -21,7 +21,7 @@ function Header() {
           <input
             className="inputBuscar"
             type="text"
-            placeholder="Buscar por categoria..."
+            placeholder="Buscar..."
             value={buscar}
             onChange={filtrado}
           />
