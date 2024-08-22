@@ -1,16 +1,19 @@
 import "./App.css";
-import "./Formulario.css";
 import "./Pie.css";
 import Inicio from "./Inicio";
 import EquiposT from "./EquiposT";
-import Formulario from "./Formulario";
+import Login from "./Formularios/Login";
+
 
 function App() {
   return (
     <div className="containerPag">
       <Inicio />
+      <Login/>
       <EquiposT />
-      <Formulario />
+      
+      
+
     </div>
   );
 }
